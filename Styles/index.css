@@ -52,7 +52,8 @@
 .landingMiddleImage{
     height: 600px;
     width: 100%;
-    background-image: url('../images/frontImage.png');
+    border: 1px solid #cd9703;
+    /* background-image: url('../images/frontImage.png'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
