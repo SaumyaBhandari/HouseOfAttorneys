@@ -38,8 +38,19 @@
 .landingSectionLeft .landingSectionButton button{
     padding: 2% 8%;
     border: 2px solid #cd9703;
+    border-radius: 4px;
+    background-color: #cd9703;
+    color: #152238;
+    font-weight: bolder;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.landingSectionButton button:hover{
     background-color: transparent;
-    color: #fff;
+    color: #cd9703;
+    transition-duration: .2s;
+    transform: scale(1.01);
 }
 
 
