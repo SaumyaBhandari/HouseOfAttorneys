@@ -1,44 +1,118 @@
-*{
+/* Global Styles */
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Merriweather', serif;
 }
 
-#mainHeader{
-    height: 10px;
-    
+/* Header Styles */
+#mainHeader {
+    background-color: #2C3E50;
+    padding: 10px 0;
+    color: white;
 }
 
-.upperHeader{
-    height: 0px;
-    border: 1px solid rgb(209, 208, 208);
+.upperHeader {
+    border-bottom: 2px solid #BDC3C7;
 }
 
-.innerHeader{
+.innerHeader {
     display: flex;
-    flex-wrap: wrap;
-    padding: 0% 5%;
-    width: 100%;
-    height: 96px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
 }
 
-.innerHeaderContent{
-    flex-basis: 50%;
-    margin-top: -.5%;
+.logo h1 {
+    font-size: 28px;
 }
 
-.navItems nav ul{
+.navItems nav ul {
     display: flex;
-    margin: 5% 0% 0% 30%;
-    flex-wrap: wrap;
+    list-style: none;
 }
 
-.navItems nav ul a{
-    flex-basis: 16%;
-    margin: 0% 2%;
-    padding: 1% 2%;
-    font-size: large;
-    font-weight: bold;
-    font-family: sans-serif;
-    color: #474747;
+.navItems nav ul li a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navItems nav ul li a:hover {
+    color: #1ABC9C;
+}
+
+/* Landing Section Styles */
+#landingSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 5%;
+    background-color: #ECF0F1;
+    color: #2C3E50;
+}
+
+.landingSectionContent {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.landingSectionLeftText h1 {
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.landingSectionLeftText p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.landingSectionButton button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1ABC9C;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.landingSectionButton button:hover {
+    background-color: #16A085;
+}
+
+.landingMiddleImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.landingSectionRightContent {
+    margin-bottom: 30px;
+}
+
+.landingSectionRightContent p {
+    font-size: 18px;
+}
+
+.landingSectionRightContent h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #1ABC9C;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2C3E50;
+    padding: 20px 5%;
+    text-align: center;
+    color: white;
+}
+
+footer .footerContent p {
+    margin: 0;
 }
