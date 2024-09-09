@@ -426,9 +426,11 @@ hr {
     padding: 0 2vw;
     box-sizing: border-box;
     scale: 0.85;
+    margin-top: -2vh;
 }
 
 .expert-item {
+    border: 2px solid #ffb800;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -438,7 +440,7 @@ hr {
     margin: 2vh 1vw 4vw 0vw; /* Added horizontal margin */
     border-radius: 2vh;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.5568), rgba(0, 0, 0, 1));
+    background-color: rgba(255, 255, 255, 0.02); 
     box-sizing: border-box;
 }
 
@@ -447,7 +449,7 @@ hr {
     height: 50vh;
     object-fit: cover;
     border-radius: 2vh 2vh 0 0;
-    transform: translateY(-5vh);
+    transform: translateY(-8vh);
 }
 
 .person-description {
@@ -455,10 +457,10 @@ hr {
     width: 100%;
     padding: 3vh;
     text-align: center;
-    background-color: #141414;
+    background-color: rgba(255, 255, 255, 0.02); 
     flex-grow: 1;
     box-sizing: border-box;
-    transform: translateY(-4vw);
+    transform: translateY(-4.7vw);
 }
 
 .expert-item h3 {
@@ -469,7 +471,8 @@ hr {
 .person-description p {
     font-size: 2.2vh;
     margin-top: 2vh;
-    line-height: 130%;
+    line-height: 150%;
+    text-align: left;
 }
 
 .person-description hr {
