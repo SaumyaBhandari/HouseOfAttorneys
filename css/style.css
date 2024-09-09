@@ -64,9 +64,14 @@ body{
     color: #ffb800;
 }
 
-
-
-
+.title-text-contact{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(1, 1, 29);
+    color: #eee;
+    font-size: 4vh;
+    padding-bottom: 8vh;
+}
 
 
 .landing {
@@ -460,7 +465,7 @@ hr {
     background-color: rgba(255, 255, 255, 0.02); 
     flex-grow: 1;
     box-sizing: border-box;
-    transform: translateY(-4.7vw);
+    transform: translateY(-4vw);
 }
 
 .expert-item h3 {
