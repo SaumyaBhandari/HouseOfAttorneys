@@ -23,7 +23,7 @@ menuBtn.onclick = function(){
 // Initialize and add the map
 function initMap() {
   // Your location
-  const loc = { lat: 51.511981, lng: -0.132004 };
+  const loc = { lat: 27.698273, lng: 85.328762 };
   // Centered map on location
   const map = new google.maps.Map(document.querySelector('.map'), {
     zoom: 14,
