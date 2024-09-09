@@ -1,85 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Styles/index.css">
-    <script src="https://kit.fontawesome.com/b380ecdec6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>House Of Attorneys</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>House of Attorneys'</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/lolo.png" type="image/png" style="filter: invert(1);">
 </head>
-<body>
     
-    <header id="mainHeader">
-        <div class="upperHeader">
-            <div class="innerHeader">
-                <div class="logo">
-                    <h1>House Of Attorneys</h1>
+
+<body>
+
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#">
+            <img src="img/logo.png" alt="House of Attorneys' Logo" class="logo" id="logo">
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#practice">Practice</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Landing Page  -->
+    <section id="landing" class="landing">
+
+        <div class="landing-text">
+            <h1>House of Attorneys'</h1>
+            <div class="landing-content">
+                <p>A Law Firm Dedicated to </p>
+                <div class="movein">
+                    <div>Trial Advocacy.</div>
+                    <div>Practice.</div>
+                    <div>Experience.</div>
                 </div>
-                <div class="navItems">
-                    <nav>
-                        <ul>
-                            <li><a href="#aboutUs">About Us</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="#appointment">Appointment</a></li>
-                        </ul>
-                    </nav>
-                </div>
+            </div>
+
+            <div class="landing-buttons">
+                <a id="landing-learn-more-button">Learn More</a>
+                <a id="landing-consult-button">Consult</a>
             </div>
         </div>
-    </header>
 
-    <main id="landingSection">
 
-        <div class="landingSectionLeft landingSectionContent">
-            <div class="landingSectionLeftText">
-                <h1>Expert Legal Services <br> for Your Business</h1>
-                <br>
-                <p>We provide comprehensive legal solutions for businesses and individuals. 
-                   From corporate law to civil matters, our experienced attorneys are here to guide you.</p>
-            </div>
+    </section>
 
-            <div class="landingSectionButton">
-                <button><p>Schedule a Consultation</p></button>
-            </div>
+
+
+
+    <!-- Feature -->
+    <section id="about" class="feature">
+        <div class="title-text">
+            <h1>About Us</h1>
         </div>
         
-        <div class="landingSectionMiddle landingSectionContent">
-            <div class="landingMiddleImage">
-                <img src="./images/frontImage.png" alt="Law firm image">
+        <div class="feature-box">
+            <div class="features">
+                <div class="feature-content">
+                    <h1>About Us</h1>
+                    <p>House of Attorneys is a leading law firm
+                       based in Kathmandu, Nepal, with over 35 
+                       years of experience in providing exceptional
+                       legal services. Our firm specializes in 
+                       business and corporate law, civil law, and 
+                       offers comprehensive legal translation and 
+                       notary services. We are dedicated to delivering 
+                       precise, reliable, and effective legal solutions 
+                       tailored to meet the unique needs of our clients.
+                    </p>
+                </div>
+            </div>
+
+            <div class="features-img">
+                <img src="img/gen1.jpg" alt="House of Attorneys Team">
+            </div>
+            
+            <div class="feature-cards">
+
+                <div class="feature-card">
+                    <h1>Our Expertise</h1>
+                    <div class="features-description">
+                        <div class="feature-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>We excel in business and corporate law, offering strategic advice and representation for companies of all sizes. Our expertise includes mergers and acquisitions, corporate governance, and compliance, ensuring that your business operates smoothly and within legal bounds.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <h1>Trial Advocacy</h1>
+                    <div class="features-description">
+                        <div class="feature-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>Our firm is well-regarded for its trial advocacy skills. We represent clients in various civil litigation matters, including disputes related to contracts, property, and other civil issues. Our goal is to achieve favorable outcomes through rigorous preparation and effective courtroom strategies.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <h1>Experienced Staff</h1>
+                    <div class="features-description">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>Our team consists of highly experienced attorneys with a deep understanding of the law. Each member of our staff brings a wealth of knowledge and a commitment to providing top-notch legal services. We work collaboratively to ensure that every case is handled with the utmost care and professionalism.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <h1>Affordable Cost</h1>
+                    <div class="features-description">
+                        <div class="feature-icon">
+                            <i class="fas fa-inr"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>At House of Attorneys, we believe in offering high-quality legal services at affordable rates. We provide transparent pricing and work with our clients to ensure that legal representation is accessible without compromising on the quality of service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+            
+
+    <!-- Services -->
+    <section id="services" class="services"> 
+        <div class="title-text">
+            <h1>Areas of Practice</h1>
+        </div>
+
+        <div class="service-box">
+            <div class="single-service">
+                <img src="img/service-1.jpg" alt="Tax Deductions">
+                <div class="overlay"></div>
+                <div class="service-description">
+                    <h3>Tax Deductions</h3>
+                    <hr>
+                    <p>At House of Attorneys, we provide expert guidance on maximizing your tax deductions. Our team helps individuals and businesses navigate complex tax laws to ensure compliance while optimizing their financial benefits.</p>
+                </div>
+            </div>
+
+            <div class="single-service">
+                <img src="img/service-2.jpg" alt="Civil and Criminal Cases">
+                <div class="overlay"></div>
+                <div class="service-description">
+                    <h3>Civil and Criminal Cases</h3>
+                    <hr>
+                    <p>We offer robust legal representation in both civil and criminal matters. Our experienced attorneys are skilled in handling a wide range of cases, from personal disputes to serious criminal charges, with a focus on achieving favorable outcomes for our clients.</p>
+                </div>
+            </div>
+
+            <div class="single-service">
+                <img src="img/service-3.jpg" alt="Contract and Property Disputes">
+                <div class="overlay"></div>
+                <div class="service-description">
+                    <h3>Contract and Property Disputes</h3>
+                    <hr>
+                    <p>Our firm specializes in resolving disputes related to contracts and property. We provide thorough legal analysis and representation to help clients resolve conflicts and protect their interests in property transactions and contractual agreements.</p>
+                </div>
+            </div>
+
+            <div class="single-service">
+                <img src="img/service-4.jpg" alt="Divorce and Family Law Disputes">
+                <div class="overlay"></div>
+                <div class="service-description">
+                    <h3>Divorce and Family Law Disputes</h3>
+                    <hr>
+                    <p>We handle all aspects of family law, including divorce, child custody, and support issues. Our compassionate team works to ensure that family matters are resolved efficiently and in the best interests of all parties involved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Experts -->
+    <section id="expert" class="expert">
+        <div class="title-text">
+            <h1> Our Experts</h1>
+            <h2>Meet Our Team</h2>
+        </div>
+
+        <div class="expert-items">
+            <div class="expert-item">
+                <img src="img/expert-1.jpg" alt="">
+                <div class="ovalay"></div>
+                <div class="media-icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="person-description">
+                    <h3>Dr. Barr. Denlea May</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cupiditate excepturi ut nihil nisi aliquid, veniam aliquam voluptatem at asperiores.</p>
+                </div>
+            </div>
+
+            <div class="expert-item">
+                <img src="img/expert-2.jpg" alt="">
+                <div class="ovalay"></div>
+                <div class="media-icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="person-description">
+                    <h3>Barr. Patrick Tom</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cupiditate excepturi ut nihil nisi aliquid, veniam aliquam voluptatem at asperiores.</p>
+                </div>
+            </div>
+
+            <div class="expert-item">
+                <img src="img/expert-3.jpg" alt="">
+                <div class="ovalay"></div>
+                <div class="media-icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="person-description">
+                    <h3>Barr. Pualina Oma</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cupiditate excepturi ut nihil nisi aliquid, veniam aliquam voluptatem at asperiores.</p>
+                </div>
+            </div>
+
+            <div class="expert-item">
+                <img src="img/expert-4.jpg" alt="">
+                <div class="ovalay"></div>
+                <div class="media-icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="person-description">
+                    <h3>Barr. Kemi Auguestina</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cupiditate excepturi ut nihil nisi aliquid, veniam aliquam voluptatem at asperiores.</p>
+                </div>
+            </div>
+
+        
+        </div>
+    </section>
+    
+    <!-- Achievements -->
+    <section id="" class="achievement">
+        <div class="title-text">
+            <h1>Our Achievements</h1>
+            <h2>Awards and Commendation</h2>
+        </div>
+
+        <div class="achievement-content">
+            <div class="achievement-area">
+                <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quisquam quas, laborum molestias officia voluptatum sint ad. Inventore accusantium expedita dignissimos nesciunt debitis, optio labore a odio blanditiis consequuntur dolorem rem consectetur possimus dicta ex eius. Rerum nam enim repellat recusandae voluptatem. Dolorem commodi quibusdam unde, aliquam cupiditate ipsam perferendis!</p> -->
+                <h1>Firms of the Year</h1>
+                <div class="features-description">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                        <span>2018</span>
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequuntur dignissimos eligendi dolorem incidunt laudantium perspiciatis sint corrupti, molestiae ipsum!</p>
+                    </div>
+                </div>
+
+                <h1>
+                    CSR Initiative of the Year
+                    </h1>
+                <div class="features-description">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                        <span>2019</span>
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequuntur dignissimos eligendi dolorem incidunt laudantium perspiciatis sint corrupti, molestiae ipsum!</p>
+                    </div>
+                </div>
+
+                <h1>Diversity Initiative of the Year</h1>
+                <div class="features-description">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                        <span>2020</span>
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequuntur dignissimos eligendi dolorem incidunt laudantium perspiciatis sint corrupti, molestiae ipsum!</p>
+                    </div>
+                </div>
+
+                <h1>International Law Firm of the Year</h1>
+                <div class="features-description">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                        <span>2021</span>
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequuntur dignissimos eligendi dolorem incidunt laudantium perspiciatis sint corrupti, molestiae ipsum!</p>
+                    </div>
+                </div>
+
+                <h1>Property Team of the Year</h1>
+                <div class="features-description">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                        <span>2016</span>
+                    </div>
+                    <div class="feature-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat consequuntur dignissimos eligendi dolorem incidunt laudantium perspiciatis sint corrupti, molestiae ipsum!</p>
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div class="achievement-img">
+                <img src="img/achievement.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Content -->
+    <section id="contact" class=" ">
+        <div class="contact-form">
+            <h1 class="sm">We Would Like To Hear From You</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Enter Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="number">Phone Number</label>
+                    <input type="number" name="number" id="number" placeholder="Enter Phone Number" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required placeholder="Message"></textarea>
+                </div>
+
+                <input type="submit" value="Send" class="btn">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <div id="" class="footer">
+        <img src="img/footer-img.jpg" alt="" class="footer-img">
+        <div class="title-text">
+            <h1>Contact Us</h1>
+            <h2>Visit Us Today</h2>
+        </div>
+
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="far fa-clock"></i>Monday - Friday : 9am - 6pm</p>
+                <p><i class="far fa-clock"></i>Saturday : 8am - 4pm</p>
+            </div>
+
+            <div class="footer-right">
+                <h1>Get In Touch </h1>
+                <p>#5 Shaftesbury Avenue, London Untied Kingdom<i class="fa fa-location-dot"></i></p>
+                <p>maydenleaco01@gmail.com<i class="far fa-paper-plane"></i></p>
+                <p><a href="tel:+44-9090907878">
+                    +44-9090907878<i class="fa fa-phone"></i></a>
+                </p>
             </div>
         </div>
 
-        <div class="landingSectionRight landingSectionContent">
-            <div class="openingHours landingSectionRightContent">
-                <p><i class="far fa-clock"></i> Opening Hours</p>
-                <br>
-                <h3>Sunday-Friday (9:00-18:00)</h3>
-            </div><br><br><br>
-            <div class="callUs landingSectionRightContent">
-                <p><i class="fa fa-phone"></i> Call us At </p>
-                <br>
-                <h3>+977-9841286191</h3>
-                <h3>+977-9841286161</h3>
-            </div><br><br><br>
-            <div class="emailUs landingSectionRightContent">
-                <p><i class="fa fa-envelope"></i> Email us</p>
-                <br>
-                <h3>vandariattorney@gmail.com</h3>
-                <h3>attorneybhandary@gmail.com</h3>
-            </div>
+        <div class="social-links">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+            <p>Copyright &copy; 
+                2022, 
+
+                All Right Reserved. 
+                <a href="https://github.com/Godswill101"><i class="fab fa-github"></i>
+                Dev. By Godswill101</a>
+            </p>
         </div>
+    </div>
 
-    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
 
-    <footer>
-        <div class="footerContent">
-            <p>&copy; 2024 House Of Attorneys. All rights reserved.</p>
-        </div>
-    </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUOJHBJMySAUOxVbLGpA9_u-8ht8_pcRk&callback=initMap"
+    async defer></script>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
