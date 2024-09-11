@@ -290,6 +290,8 @@ body{
 /* Card Hover Effect */
 .feature-card:hover {
     transform: translateY(-0.8vh);
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+    
 }
 
 /* Responsive Design */
@@ -306,6 +308,85 @@ body{
         flex-basis: 100%;
         margin-top: 4vh;
     }
+}
+
+/* Notary Nepal Section */
+.notary-nepal {
+    background-color: rgb(1, 1, 29);
+    color: white;
+    padding: 0vh 10vw 10vh 10vw;
+}
+
+.notary-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+.notary-description {
+    flex: 1;
+}
+.notary-nepal h1{
+    font-size: 3vw;
+    text-align: center;
+    margin: 0vh 0vh 6vh 0vh;
+}
+
+.notary-description h2 {
+    font-size: 2.3vw;
+    margin-bottom: 2vh;
+    color: #ffb700;
+}
+
+.notary-description p {
+    font-size: 1.3vw;
+    line-height: 1.6;
+}
+
+.notary-image {
+    flex: 1;
+}
+
+.notary-image img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 0 0 8vw;
+}
+
+.notary-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.notary-card {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.02); /* Subtle background */
+    padding: 2vw;
+    border-radius: 10px;
+    flex: 1;
+    margin: 0vw 2vw 0 0;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.notary-card h2 {
+    font-size: 1.5vw;
+    margin-bottom: 1vh;
+    color: #ffb700;
+}
+
+.notary-card p {
+    font-size: 1.2vw;
+    line-height: 1.5;
+}
+
+.notary-card:hover{
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+    transform: translate(0, -1vh);
 }
 
 
@@ -384,7 +465,7 @@ body{
 }
 
 .service-description p {
-    font-size: 2.2vh;
+    font-size: 2.3vh;
     line-height: 1.5;
     color: #ddd; /* Lighter color for readability */
 }
@@ -430,12 +511,12 @@ hr {
     justify-content: space-around;
     padding: 0 2vw;
     box-sizing: border-box;
-    scale: 0.85;
+    scale: 0.9;
     margin-top: -2vh;
 }
 
 .expert-item {
-    border: 2px solid #ffb800;
+    /* border: 1px solid #ffb800; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -476,7 +557,7 @@ hr {
 .person-description p {
     font-size: 2.2vh;
     margin-top: 2vh;
-    line-height: 150%;
+    line-height: 1.4;
     text-align: left;
 }
 
@@ -492,11 +573,10 @@ hr {
     display: flex;
     justify-content: center;
     margin-top: 2vh;
-    border: 1px solid black;
     padding: 0.5vh;
     z-index: 100;
     transform: translate(11vw, 0vh);
-    background: black;
+    background: rgb(1, 1, 29)
 }
 
 .media-icon i {
@@ -534,6 +614,9 @@ hr {
     font-size: 5vh; /* Adjusted for better readability */
     margin-bottom: 3vh; /* Spacing adjusted for consistency */
     color: #ffb800; /* Contrasting color for the title */
+    text-align: left;
+    letter-spacing: 0;
+    font-weight: bolder;
 }
 
 #contact .contact-form .form-group {
@@ -550,31 +633,32 @@ hr {
 #contact .contact-form textarea {
     width: 100%; /* Full width to match container */
     padding: 1.2vh; /* Adjusted for better spacing */
-    border: 1px solid #27c0ff; /* Consistent border color */
+    border: 1px solid #ffb700; /* Consistent border color */
     border-radius: 0.5vh; /* Rounded corners */
     background-color: #ffffff; /* Dark background for form fields */
     color: #000000; /* White text for readability */
     font-size: 2vh; /* Adjusted font size */
 }
 
-#contact .btn {
+#contact .contact-form textarea{
+    height: 17vh;
+}
+
+#contact #btn {
     display: inline-block;
+    float: right;
     padding: 1vh 2vw;
     font-size: 2vh; 
-    font-weight: 300;
+    font-weight: bolder;
     border: none;
     width: 10vw;
     border-radius: 0.5vh;
     transition: 0.3s ease;
     cursor: pointer;
-    color: #0b0000;
-    background-color: #ffb800; /* Dark background for buttons */
-}
-
-#contact .btn:hover {
-    background: #ffb800;
-    color: #eee;
-    opacity: 1; /* Fully opaque on hover */
+    color: #000000;
+    background-color: #ffb700;
+    border: 1px solid #ffb700;
+    transition: ease 0.5;
 }
 
 /* Map */
@@ -596,6 +680,8 @@ hr {
     flex-direction: column;
     align-items: center;
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
 .footerHeading{
@@ -622,13 +708,13 @@ hr {
 }
 
 .footer-row h1 {
-    margin: 1vh 0;
+    margin: 2vh 0;
     color: #ffb800;
 }
 
 .footer-row p {
-    line-height: 1rem;
-    letter-spacing: 0.1em;
+    line-height: 3.5vh;
+    letter-spacing: 0vw;
     color: #fff;
 }
 
